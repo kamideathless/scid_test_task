@@ -1,0 +1,50 @@
+.env
+.secrets
+
+# Python
+*.pyc
+*.pyo
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+**/__pycache__/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+build/
+dist/
+eggs/
+lib/
+lib64/
+sdist/
+wheels/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.cache
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+.tox/
+.mypy_cache/
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+*.tmp
+*.bak
+*.log
